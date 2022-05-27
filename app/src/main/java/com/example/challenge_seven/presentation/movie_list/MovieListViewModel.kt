@@ -35,7 +35,7 @@ class MovieListViewModel @Inject constructor(
         getMovies()
     }
 
-    fun getMovies() {
+    private fun getMovies() {
         movieUseCase().onEach { result ->
             when (result) {
                 is Resource.Success -> {

@@ -27,6 +27,27 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        customDebug {
+            initWith debug
+            applicationIdSuffix ".customDebug"
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "version"
+    productFlavors {
+        free {
+            dimension "version"
+            manifestPlaceholders variant: "Free"
+            applicationIdSuffix ".free"
+            buildConfigField "String", "BASE_URL", '"https:://paidServer.com'
+        }
+        paid {
+            dimension "version"
+            manifestPlaceholders variant: "Paid"
+            applicationIdSuffix ".paid"
+            buildConfigField "String", "BASE_URL", '"https:://freeServer.com'
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

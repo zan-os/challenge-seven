@@ -34,4 +34,6 @@
     <string name="confirm_password">Confirm password</string>
     <string name="my_favorite">My Favorite</string>
     <string name="my_profile">My Profile</string>
+    <string name="free_version">Free Version</string>
+    <string name="paid_version">Paid Version</string>
 </resources>

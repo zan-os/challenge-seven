@@ -9,8 +9,8 @@ import com.example.challenge_seven.common.Constant
 import com.example.challenge_seven.common.Resource
 import com.example.challenge_seven.data.local.UserPreferences
 import com.example.challenge_seven.domain.model.User
-import com.example.challenge_seven.domain.use_case.get_user_data.GetUserDataUseCase
-import com.example.challenge_seven.domain.use_case.update_user.UpdateUserUseCase
+import com.example.challenge_seven.domain.usecase.getuserdata.GetUserDataUseCase
+import com.example.challenge_seven.domain.usecase.updateuser.UpdateUserUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

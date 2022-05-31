@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.splash_screen.ui.SplashScreenActivity">
+    tools:context=".presentation.splashscreen.ui.SplashScreenActivity">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/logo"

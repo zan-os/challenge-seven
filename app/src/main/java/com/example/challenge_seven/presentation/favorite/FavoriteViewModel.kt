@@ -8,8 +8,8 @@ import androidx.lifecycle.viewModelScope
 import com.example.challenge_seven.common.Constant
 import com.example.challenge_seven.common.Resource
 import com.example.challenge_seven.domain.model.User
-import com.example.challenge_seven.domain.use_case.get_user_data.GetUserDataUseCase
-import com.example.challenge_seven.domain.use_case.observe_favorite.ObserveFavoriteMovieByIdUseCase
+import com.example.challenge_seven.domain.usecase.getuserdata.GetUserDataUseCase
+import com.example.challenge_seven.domain.usecase.observefavorite.ObserveFavoriteMovieByIdUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

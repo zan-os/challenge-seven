@@ -4,11 +4,10 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.asLiveData
 import com.example.challenge_seven.common.Constant
 import com.example.challenge_seven.common.Resource
 import com.example.challenge_seven.data.local.UserPreferences
-import com.example.challenge_seven.domain.use_case.login_user.LoginUserUseCase
+import com.example.challenge_seven.domain.usecase.loginuser.LoginUserUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

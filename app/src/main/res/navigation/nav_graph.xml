@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/movieListFragment"
-        android:name="com.example.challenge_seven.presentation.movie_list.ui.MovieListFragment"
+        android:name="com.example.challenge_seven.presentation.movielist.ui.MovieListFragment"
         android:label="fragment_movie_list"
         tools:layout="@layout/fragment_movie_list" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailMovieFragment"
-        android:name="com.example.challenge_seven.presentation.detail_movie.ui.DetailMovieFragment"
+        android:name="com.example.challenge_seven.presentation.detailmovie.ui.DetailMovieFragment"
         android:label="fragment_detail_movie"
         tools:layout="@layout/fragment_detail_movie" >
         <argument

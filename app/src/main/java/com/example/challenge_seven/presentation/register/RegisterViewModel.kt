@@ -9,7 +9,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.challenge_seven.common.Constant
 import com.example.challenge_seven.common.Resource
 import com.example.challenge_seven.domain.model.User
-import com.example.challenge_seven.domain.use_case.register_user.RegisterUserUseCase
+import com.example.challenge_seven.domain.usecase.registeruser.RegisterUserUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/Kotlin/challenge-seven/app/src/main/res/drawable/ic_loading.xml" value="0.257" />
+        <entry key="..\:/Project/Kotlin/challenge-seven/app/src/main/res/drawable/ic_refresh_black.xml" value="0.257" />
         <entry key="..\:/Project/Kotlin/challenge-seven/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
         <entry key="..\:/Project/Kotlin/challenge-seven/app/src/main/res/layout/activity_register.xml" value="0.358695652173913" />
         <entry key="..\:/Project/Kotlin/challenge-seven/app/src/main/res/layout/activity_splash_screen.xml" value="0.358695652173913" />

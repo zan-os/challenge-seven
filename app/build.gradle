@@ -40,13 +40,11 @@ android {
             dimension "version"
             manifestPlaceholders variant: "Free"
             applicationIdSuffix ".free"
-            buildConfigField "String", "BASE_URL", '"https:://paidServer.com'
         }
         paid {
             dimension "version"
             manifestPlaceholders variant: "Paid"
             applicationIdSuffix ".paid"
-            buildConfigField "String", "BASE_URL", '"https:://freeServer.com'
         }
     }
     compileOptions {
